@@ -70,7 +70,7 @@ public class Pizza {
     public String getBill(){
         // your code goes here
         if(this.flagBill==false) {
-            this.bill += "Total Price: " + this.price;
+            this.bill += "Total Price: " + this.price+"\n";
             this.flagBill=true;
         }
         return this.bill;
